@@ -15,7 +15,7 @@ useSeoMeta({
 </script>
 
 <template>
-  <!-- <div v-if="page">
+  <div v-if="page">
     {{ page }}
-  </div> -->
+  </div>
 </template>

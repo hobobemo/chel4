@@ -122,7 +122,7 @@ async function handleSubmit() {
     <template #body>
       <div class="min-h-[200px]">
         <div v-if="currentStep === 0">
-          <DashboardTeamsStepperEa v-bind="formData ? { item: formData } : {}" @item="handleEa" />
+          
         </div>
 
         <div v-else-if="currentStep === 1">

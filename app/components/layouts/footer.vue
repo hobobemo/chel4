@@ -59,11 +59,11 @@ function onSubmit() {
 </script>
 
 <template>
-  <USeparator class="h-px">
-    <template>
-      <Logo class="w-6 h-6"/>
-    </template>
-  </USeparator>
+  <div class="flex items-center justify-center my-4">
+    <USeparator class="flex-1" />
+    <Logo class="mx-4 w-6 h-6" />
+    <USeparator class="flex-1" />
+  </div>
 
   <UFooter :ui="{ top: 'border-b border-default' }">
     <template #top>
