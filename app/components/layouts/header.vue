@@ -34,21 +34,19 @@ const items = computed(() => [
 
 <template>
   <UHeader>
+    
     <template #left>
       <NuxtLink to="/">
         <LogoPro class="w-auto h-6 shrink-0" />
       </NuxtLink>
     </template>
 
-    <!-- ✅ Wrap nav and user menu in ClientOnly -->
-    <ClientOnly>
-      <UNavigationMenu :items="items" variant="link" />
+    <UNavigationMenu :items="items" variant="link" />
 
-      <template #right>
-        <USeparator />
-        <LayoutsUserMenu />
-      </template>
-    </ClientOnly>
+    <template #right>
+      <USeparator />
+      <LayoutsUserMenu />
+    </template>
+
   </UHeader>
 </template>
-

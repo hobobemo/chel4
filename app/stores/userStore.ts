@@ -3,8 +3,8 @@ import { defineStore } from 'pinia'
 export const useUserStore = defineStore('user', {
   state: () => {
     return {
-      isAuth: true,
-      id: '238816380596649985',
+      isAuth: false,
+      id: null,
       avatar: null,
       email: null,
       globalName: null,
@@ -14,7 +14,7 @@ export const useUserStore = defineStore('user', {
       leagues: [],
       level: 0,
       customerId: null,
-      token: 'c2hhMjU2OjYzMjo5NjNhMGQxN2QyMzgzMjcxZGI3MGIwYWJkODRmYWI4YjFjYWUzNWRmNmNkOGQyMGUxOTBjYjRmNGZhNTMyZDRi'
+      token: null,
     }
   },
   getters: {
