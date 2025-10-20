@@ -1,0 +1,65 @@
+title: "Privacy Policy"
+slug: "privacy"
+effective_date: "2025-10-20"
+updated: "2025-10-20"
+
+sections:
+  - heading: "Who We Are"
+    body: |
+      CHEL.gg (“we,” “our,” or “us”) is a software platform operated from Colorado, USA.
+      We build tools and services for managing and engaging with online hockey leagues and related communities.
+      If you have any questions about this policy, you can reach us at admin@bemollc.com.
+
+  - heading: "Information We Collect"
+    body: |
+      We collect information to make CHEL.gg work properly and improve over time. This includes:
+        - Account details: name, email address, username, and password
+        - Usage data: pages visited and features used
+        - Payment information: collected via secure partners like Stripe
+        - Device data: browser type, operating system, and location
+        - User content: data you submit such as stats, team details, or chat messages
+
+  - heading: "How We Use Information"
+    body: |
+      We use your information to:
+        - Provide and improve CHEL.gg
+        - Process payments and subscriptions
+        - Communicate about updates and issues
+        - Personalize your experience
+        - Maintain security and prevent misuse
+        - Comply with legal obligations
+
+  - heading: "How We Share Information"
+    body: |
+      We only share data when necessary:
+        - Service providers like payment or analytics partners
+        - Legal reasons if required by law or to protect our rights
+        - Business transfers such as mergers or acquisitions
+      We never sell your personal data.
+
+  - heading: "Data Storage and Security"
+    body: |
+      Your data is stored securely using encryption and modern safeguards.
+      While no system is 100% secure, we take appropriate steps to protect your information.
+
+  - heading: "International Users"
+    body: |
+      CHEL.gg operates globally. By using our services, you consent to data processing in the United States.
+
+  - heading: "Your Rights"
+    body: |
+      You may have rights to access, update, or delete your data, or opt out of marketing.
+      To exercise these rights, contact admin@bemollc.com.
+
+  - heading: "Children’s Privacy"
+    body: |
+      CHEL.gg is not directed to children under 13. We do not knowingly collect personal information from minors.
+
+  - heading: "Changes to This Policy"
+    body: |
+      We may update this Privacy Policy as our platform evolves.
+      When changes occur, we’ll post the updated version and modify the effective date above.
+
+  - heading: "Contact Us"
+    body: |
+      Questions about this policy? Email admin@bemollc.com.

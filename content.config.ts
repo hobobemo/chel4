@@ -71,10 +71,12 @@ export const collections = {
       })
     })
   }),
+
   docs: defineCollection({
     type: 'page',
     source: '1.docs/**/*'
   }),
+
   solutions: defineCollection({
     type: 'page',
     source: '2.solutions/**.yml',
@@ -98,6 +100,7 @@ export const collections = {
       })
     })
   }),
+
   extensions: defineCollection({
     source: '3.extensions/**/*.yml',
     type: 'page',
@@ -113,6 +116,7 @@ export const collections = {
       }),
     })
   }),
+
   pricing: defineCollection({
     source: '2.pricing.yml',
     type: 'page',
@@ -147,8 +151,26 @@ export const collections = {
       })
     })
   }),
+
   blog: defineCollection({
     source: '3.blog.yml',
     type: 'page'
+  }),
+
+  legal: defineCollection({
+    source: '4.legal/**/*.yml',
+    type: 'page',
+    schema: z.object({
+      title: z.string().nonempty(),
+      slug: z.string().nonempty(),
+      effective_date: z.string().nonempty(),
+      updated: z.string().nonempty(),
+      sections: z.array(
+        z.object({
+          heading: z.string().nonempty(),
+          body: z.string().nonempty()
+        })
+      )
+    })
   })
 }

@@ -1,0 +1,63 @@
+title: "Terms of Service"
+slug: "terms"
+effective_date: "2025-10-20"
+updated: "2025-10-20"
+
+sections:
+  - heading: "Acceptance of Terms"
+    body: |
+      By accessing or using CHEL.gg, you agree to these Terms of Service.
+      If you don’t agree, please don’t use the platform.
+
+  - heading: "Accounts"
+    body: |
+      You’ll need an account to access most features.
+      You agree to provide accurate information and keep it current.
+      You’re responsible for your password and all activity on your account.
+
+  - heading: "Payments and Subscriptions"
+    body: |
+      Some features require payment.
+      Payments are handled securely through third-party providers such as Stripe.
+      Subscriptions renew automatically unless canceled.
+      You can cancel anytime, but refunds are generally not offered unless required by law.
+
+  - heading: "User Content"
+    body: |
+      You retain ownership of content you upload, such as stats or messages.
+      By posting content, you grant CHEL.gg a license to display, share, and use it
+      for the normal operation and promotion of the platform.
+      You are responsible for ensuring your content does not violate laws or rights.
+
+  - heading: "Acceptable Use"
+    body: |
+      You agree not to:
+        - Use CHEL.gg for illegal purposes
+        - Harass or harm others
+        - Attempt to hack, reverse-engineer, or disrupt the service
+        - Misuse personal data or impersonate others
+      We may suspend or terminate accounts that violate these rules.
+
+  - heading: "Disclaimer"
+    body: |
+      CHEL.gg is provided “as is.” We strive for reliability but cannot guarantee
+      uninterrupted or error-free operation.
+
+  - heading: "Limitation of Liability"
+    body: |
+      To the maximum extent permitted by law, CHEL.gg and its owners
+      are not liable for indirect, incidental, or consequential damages arising from your use of the platform.
+
+  - heading: "Termination"
+    body: |
+      You may stop using CHEL.gg at any time.
+      We may suspend or close accounts for violations or legal compliance.
+
+  - heading: "Changes to These Terms"
+    body: |
+      We may update these Terms periodically.
+      Continued use after updates means you accept the revised Terms.
+
+  - heading: "Contact"
+    body: |
+      Questions about these Terms? Email admin@bemollc.com.
