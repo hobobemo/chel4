@@ -1,6 +1,6 @@
 ---
 seo:
-  title: Nuxt Docs Template
+  title: CHEL.gg
   description: Create stunning, fast and SEO-optimized documentation sites with Nuxt UI.
 ---
 
