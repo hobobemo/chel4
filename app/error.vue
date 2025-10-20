@@ -25,18 +25,11 @@ provide('navigation', navigation)
 </script>
 
 <template>
-  <UApp>
-    <AppHeader />
+    <LayoutsHeader />
 
-    <UError :error="error" />
+    <UMain>
+      <UError :error="error" />
+    </UMain>
 
-    <AppFooter />
-
-    <ClientOnly>
-      <LazyUContentSearch
-        :files="files"
-        :navigation="navigation"
-      />
-    </ClientOnly>
-  </UApp>
+    <LayoutsFooter />
 </template>
