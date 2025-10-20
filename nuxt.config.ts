@@ -17,14 +17,11 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
 
   runtimeConfig: { 
-    apiKey: process.env.GODADDY_KEY,
-    apiSecret: process.env.GODADDY_SECRET,
     stripeSecret: process.env.STRIPE_SECRET,
     public: {
       BASE_URL: process.env.NUXT_BASE_URL,
       discordClient: process.env.DISCORD_CLIENT, 
       discordSecret: process.env.DISCORD_SECRET,
-      apiUrl: process.env.NUXT_GODADDY_URL,
     },
   },
 
