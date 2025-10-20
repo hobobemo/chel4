@@ -1,0 +1,45 @@
+title: League Manager Discord Bot
+description: Perfect for community engagement, the bot integrates seamlessly with your league’s Discord server, delivering instant updates and interactive commands. Members can access real-time game scores, stats, and league standings directly within Discord, keeping everyone in the loop and fostering a more connected league community.
+product: prod_R0qGLL4flycleR
+hero:
+  title: E-Hockey, Reimagined for the Digital Age
+  description: Introducing our Discord bot for e-hockey leagues, a powerful tool designed to keep your league members connected and informed. By leveraging continuous API data integration, this bot provides real-time updates and accurate information directly within your league's Discord server, creating an interactive and engaging experience for players, coaches, and management alike.
+  image: /images/backgrounds/4.jpeg
+features:
+  title: Key Features that help you more efficiently operate your league
+  headline: Features
+  items:
+    - title: Real-Time Notifications
+      description: The bot delivers instant updates on game scores, player stats, and league standings, ensuring that everyone stays up-to-date with the latest information.
+      icon: i-material-symbols-breaking-news
+    - title: Accurate and Reliable Data
+      description: With continuous API data feeds, the bot maintains accuracy and eliminates any lag, providing users with trustworthy, real-time information.
+      icon: i-mdi-lock
+    - title: Customizable Alerts
+      description: League members can choose to receive specific notifications about their favorite teams, players, or leagues, tailored to their preferences.
+      icon: i-mdi-lock
+    - title: Detailed Statistics and Analysis
+      description: The bot can generate on-demand stats and analytics reports, offering in-depth insights into player performances, team dynamics, and league standings.
+      icon: i-mdi-lock
+    - title: Interactive Commands
+      description: Simple commands allow users to easily access schedules, standings, and more, making it easy for anyone in the server to stay informed.
+      icon: i-mdi-lock
+    - title: Automated Announcements
+      description: The bot can be configured to automatically post announcements, game results, and upcoming match schedules, keeping the community engaged without manual updates.
+      icon: i-mdi-lock
+benefits:
+  title: Discover the Advantages of Real-Time League Management
+  headline: Experience E-Hockey Like Never Before
+  items: 
+    - name: Increased Engagement
+      description: By bringing live data and updates into Discord, members can stay involved with league activities and discussions, right within the chat.
+      icon: i-mdi-lock
+    - name: Community Building
+      description: The bot fosters an interactive environment where fans, players, and coaches can share insights, celebrate wins, and analyze performances together.
+      icon: i-mdi-lock
+    - name: Streamlined Information Sharing
+      description: With the bot handling updates and stats, admins can focus on other aspects of league management, knowing the community is well-informed.
+      icon: i-mdi-lock
+pricing:
+  title: Get Started
+  description: Add our Discord bot to your server today and transform how your league engages with members. With real-time updates and interactive features, our bot ensures your league community is always in the loop and ready to celebrate the latest e-hockey action.

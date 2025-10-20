@@ -1,0 +1,45 @@
+title: League Manager Online
+description: The central hub for league management, offering an intuitive dashboard with live updates on standings, player stats, and game schedules. With customizable notifications and in-depth analytics, it’s designed to enhance decision-making and streamline operations for league administrators, coaches, and players.
+product: prod_QQ3UzcaxtsIfiE
+hero:
+  title: Stay Connected to Your E-Hockey League in Real-Time
+  description: Introducing our online web application for e-hockey leagues, designed to keep league management and fan engagement streamlined and up-to-date. With continuous API data integration, the platform provides real-time accuracy for league standings, player stats, and game schedules, ensuring that league members have instant access to the latest information.
+  image: /images/backgrounds/1.jpeg
+features:
+  title: Key Features that help you more efficiently operate your league
+  headline: Features
+  items:
+    - title: Real-Time Data Updates
+      description: Our platform pulls data continuously from various APIs, keeping all league information current and accurate without any manual input.
+      icon: i-material-symbols-breaking-news
+    - title: Interactive Dashboard
+      description: The web app offers an intuitive dashboard with comprehensive views of player stats, team standings, and upcoming match schedules, all updated in real-time.
+      icon: i-mdi-lock
+    - title: Customizable Alerts and Notifications
+      description: Users can opt to receive notifications for specific teams, players, or leagues, so they never miss an important update.
+      icon: i-mdi-lock
+    - title: Advanced Analytics and Reports
+      description: Coaches, players, and fans can access in-depth analytics and performance reports, helping to make data-driven decisions and strategies.
+      icon: i-mdi-lock
+    - title: User-Friendly Interface
+      description: With an easy-to-navigate design, users can quickly find the information they need, from match results to detailed league analytics.
+      icon: i-mdi-lock
+    - title: Secure and Reliable
+      description: Built with the latest security protocols, the platform ensures that all user data and league information are kept safe and secure.
+      icon: i-mdi-lock
+benefits:
+  title: Transforming Your League with Real-Time Accuracy
+  headline: Live Updates, Real Data – Every Game, Every Goal
+  items: 
+    - name: Engaging User Experience
+      description: By providing real-time updates and in-depth insights, the platform enhances user engagement and keeps the league community connected.
+      icon: i-mdi-lock
+    - name: Efficiency for League Management
+      description: Automated updates reduce the need for manual data entry, allowing league managers to focus on what matters most.
+      icon: i-mdi-lock
+    - name: Accessibility
+      description: Accessible from any web browser, the app ensures that players, coaches, and fans can stay connected with the league from anywhere.
+      icon: i-mdi-lock
+pricing:
+  title: Get Started
+  description: Visit our web application today and experience a new level of convenience and accuracy in e-hockey league management. With real-time updates and interactive features, our platform is your ultimate tool for staying connected to every play, every stat, and every score.

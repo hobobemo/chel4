@@ -1,0 +1,45 @@
+title: League Manager Mobile Application
+description: Built for on-the-go access, the mobile app ensures users have real-time updates and comprehensive league information at their fingertips. With personalized alerts and a user-friendly interface, fans, players, and coaches can stay engaged with the league from anywhere.
+product: prod_R0qHxaPFkW4PeI
+hero:
+  title: Real-Time E-Hockey Insights, Anytime, Anywhere
+  description: Introducing our mobile application for e-hockey leagues, a game-changer in how players, coaches, and fans interact with league information. Designed with continuous API data integration, this app provides real-time updates and accurate statistics, ensuring that users always have the latest information right at their fingertips.
+  image: /images/backgrounds/3.jpeg
+features:
+  title: Key Features that help you more efficiently operate your league
+  headline: Features
+  items:
+    - title: Real-Time Updates
+      description: Leveraging continuous API data, the app keeps users informed with instant updates on game scores, player stats, league standings, and schedules.
+      icon: i-mdi-lock
+    - title: Accurate and Reliable Data
+      description: The app's real-time integration ensures that users receive the most accurate data, reducing any lag or discrepancies in the information presented.
+      icon: i-mdi-lock
+    - title: Personalized Experience
+      description: Users can customize their feeds to follow specific teams, players, or leagues, tailoring the app to their preferences.
+      icon: i-mdi-lock
+    - title: In-Depth Statistics and Analysis
+      description: Access detailed player stats, team performance metrics, and league standings with a user-friendly interface, perfect for fans, players, and coaches alike.
+      icon: i-mdi-lock
+    - title: Push Notifications
+      description: Stay updated with instant notifications for game results, schedule changes, and other important league news.
+      icon: i-mdi-lock
+    - title: Cross-Platform Accessibility
+      description: Available on both iOS and Android, the app provides a seamless experience across devices, keeping users connected wherever they are.
+      icon: i-mdi-lock
+benefits:
+  title: Unlock the Power of Real-Time Updates
+  headline: Instant Stats. Seamless Access. Complete Control.
+  items: 
+    - name: Enhanced User Engagement
+      description: By providing live data and updates, users are more engaged with the league and its developments.
+      icon: i-mdi-lock
+    - name: Improved Decision-Making
+      description: Coaches and players can use up-to-date statistics to analyze performance and make informed decisions.
+      icon: i-mdi-lock
+    - name: Convenient Access
+      description: With everything available on a mobile app, users can stay connected to the league anytime, anywhere.
+      icon: i-mdi-lock
+pricing:
+  title: Get Started
+  description: Download the app today and immerse yourself in the world of e-hockey with a tool that keeps you connected to every play, every stat, and every score—instantly.

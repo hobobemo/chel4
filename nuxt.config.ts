@@ -7,7 +7,8 @@ export default defineNuxtConfig({
     '@nuxt/content',
     'nuxt-og-image',
     'nuxt-llms',
-    '@nuxthub/core'
+    '@nuxthub/core',
+    '@pinia/nuxt'
   ],
 
   devtools: {
@@ -15,6 +16,18 @@ export default defineNuxtConfig({
   },
 
   css: ['~/assets/css/main.css'],
+
+  runtimeConfig: { 
+    apiKey: process.env.GODADDY_KEY,
+    apiSecret: process.env.GODADDY_SECRET,
+    stripeSecret: process.env.STRIPE_SECRET,
+    public: {
+      BASE_URL: process.env.NUXT_BASE_URL,
+      discordClient: process.env.DISCORD_CLIENT, 
+      discordSecret: process.env.DISCORD_SECRET,
+      apiUrl: process.env.NUXT_GODADDY_URL,
+    },
+  },
 
   content: {
     build: {
@@ -75,5 +88,29 @@ export default defineNuxtConfig({
         ]
       }
     ]
-  }
+  },
+
+  ui: {
+    icons: [
+      'mdi',
+      'heroicons',
+      'simple-icons',
+      'ph',
+      'material-symbols'
+    ]
+  },
+
+  app: {
+    head: {
+      script: [
+        { src: 'https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/EasePack.min.js' },
+        { src: 'https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/rAF.js' },
+        { src: 'https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/TweenLite.min.js' },
+      ],
+    },
+  },
+
+  pinia: {
+    autoImports: ['defineStore'], // optional
+  },
 })

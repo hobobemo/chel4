@@ -5,18 +5,30 @@ const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
 </script>
 
 <template>
-  <UContainer>
-    <UPage>
-      <template #left>
-        <UPageAside>
-          <UContentNavigation
-            highlight
-            :navigation="navigation"
-          />
-        </UPageAside>
-      </template>
+  <div>
+    <LayoutsHeader />
 
-      <slot />
-    </UPage>
-  </UContainer>
+    <UMain>
+      <UContainer>
+        <UPage>
+          <template #left>
+            <UPageAside>
+              <template #top>
+                <UContentSearchButton :collapsed="false" />
+              </template>
+
+              <UContentNavigation
+                :navigation="navigation"
+                highlight
+              />
+            </UPageAside>
+          </template>
+
+          <slot />
+        </UPage>
+      </UContainer>
+    </UMain>
+
+    <LayoutsFooter />
+  </div>
 </template>

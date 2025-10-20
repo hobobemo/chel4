@@ -1,0 +1,55 @@
+seo:
+  title: CHEL Team Hub
+  description: Manage your CHEL team like a pro with a full suite of tools designed to track player stats, review past games, take scouting notes, and more — all with seamless API integration across web, mobile, and Discord.
+navigation: false
+hero:
+  title: Team [Management]{.text-primary} Redefined
+  description: Elevate your team’s performance with our all-in-one platform tailored for competitive CHEL teams. Track your player stats, review past matchups, analyze opponent tendencies, and coordinate with your squad — all from a single interface. Accessible via web, mobile, and Discord, your team stays informed and connected no matter where they play.
+  image: /images/backgrounds/3.jpeg
+  links:
+    - icon: i-mdi-desktop-mac
+      size: lg
+      to: /extensions/teams/web
+      class: rounded-full
+    - icon: i-mdi-discord
+      size: lg
+      to: /extensions/teams/discord
+      class: rounded-full
+    - icon: i-mdi-cellphone-android
+      size: lg
+      to: /extensions/teams/mobile
+      class: rounded-full
+features:
+  title: Built for [Teams]{.text-primary} That Want to Win
+  description: Designed for CHEL team captains, analysts, and competitive players — manage every detail of your team’s identity, performance, and strategy.
+  items:
+    - title: Player & Team Stats
+      description: Track team-wide and individual player performance with detailed stat breakdowns. Stay on top of goals, assists, faceoffs, penalties, and more — updated automatically or manually after each game.
+      icon: i-material-symbols-sports-hockey-rounded
+    - title: Game History
+      description: Access your full game archive with results, box scores, and stat summaries. Review win/loss records, see progression over time, and dive deep into performance trends across seasons and leagues.
+      icon: i-material-symbols-history-rounded
+    - title: Scouting & Notes
+      description: Add custom notes on opponents, teams, or specific players. Capture scouting insights, tendencies, and strategies that help you prepare for future matchups.
+      icon: i-material-symbols-note-alt
+    - title: Roster Management
+      description: Manage your team roster with ease. Add or remove players, assign roles like captain or goalie, and keep your lineup up-to-date across all integrated platforms.
+      icon: i-material-symbols-supervisor-account-outline
+    - title: Branding & Identity
+      description: Customize your team profile with logos, banners, and bios. Create a professional presence that stands out in league directories and match previews.
+      icon: i-material-symbols-brush-outline
+    - title: Cross-League Compatibility
+      description: Keep your team’s history intact across multiple leagues. Your stats, notes, and players stay consistent, giving you a central hub for multi-league play.
+      icon: i-material-symbols-sync-alt
+
+cta:
+  title: Build your team’s legacy with CHEL.
+  description: Whether you're climbing the leaderboards or just getting started, our tools are built to help you stay organized, connected, and competitive.
+  links:
+    - label: Create Your Team
+      to: /team/create
+      icon: i-lucide-user-plus
+    - label: Learn More
+      to: /features/team
+      trailingIcon: i-lucide-info
+      variant: subtle

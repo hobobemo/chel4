@@ -1,0 +1,56 @@
+seo:
+  title: CHEL.gg
+  description: Nuxt UI Pro is a collection of premium Vue components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes.
+navigation: false
+hero:
+  title: Premier [League]{.text-primary} Management Software
+  description: Our comprehensive online e-hockey software application suite provides an all-in-one solution for managing, tracking, and engaging with e-hockey leagues. Featuring a web application, Discord bot, and mobile app, this suite leverages continuous API data integration to deliver real-time updates and accurate insights, ensuring league members stay informed and connected across multiple platforms.
+  image: /images/backgrounds/2.jpeg
+  links:
+    - icon: i-mdi-desktop-mac
+      size: lg
+      to: /extensions/leagues/web
+      class: rounded-full
+    - icon: i-mdi-discord
+      size: lg
+      to: /extensions/leagues/discord
+      class: rounded-full
+    - icon: i-mdi-cellphone-android
+      size: lg
+      to: /extensions/leagues/mobile
+      class: rounded-full
+features:
+  title: Built for [League]{.text-primary} Excellence
+  description: Discover the powerful features that streamline operations, enhance accuracy, and elevate the management of your e-hockey league from start to finish.
+  items:
+    - title: Seasons
+      description: Our Season Management feature is designed to provide you with comprehensive control and visibility over your entire league's season. From initial setup to the final game, our tools ensure a smooth and organized experience.
+      icon: i-material-symbols-cloudy-snowing-outline
+    - title: Teams
+      description: Manage every aspect of your teams with our robust Team Management feature. Maintain detailed team profiles, including player rosters and statistics.  Our system ensures your team operations are always well-organized and efficient.
+      icon: i-material-symbols-groups-outline
+    - title: Automatic API
+      description: Our Automatic Stat and Game Updates feature ensures you never miss a moment. Enjoy real-time data collection and updates during matches, seamlessly integrated into team profiles and standings. Automated checks guarantee data accuracy and consistency, while historical data management allows you to archive and retrieve past game statistics.
+      icon: i-material-symbols-network-node
+    - title: Schedule Generator
+      description: Generate your entire season's schedule with a single click using our Schedule Generator. Input your league's parameters and let our system create a balanced schedule that minimizes conflicts and ensures fair play.
+      icon: i-material-symbols-auto-fix-outline
+    - title: Lagout Corrections
+      description: Our Lagout Corrections feature guarantees that technical issues don't disrupt the integrity of your matches. Automatically detect and handle lagouts with predefined rules, such as game restarts or score adjustments. League officials can manually override and validate corrections, ensuring transparency and fairness.
+      icon: i-material-symbols-signal-wifi-bad-outline
+    - title: Manual Stats
+      description: Our Manual Stat Entry feature provides a user-friendly interface for entering and updating match results and player statistics. Edit existing stats to correct any errors or omissions, with comprehensive data fields covering all relevant information.
+      icon: i-material-symbols-text-select-start
+cta:
+  title: Start with Nuxt UI Pro today!
+  description: Nuxt UI Pro is free in development, but you need a license to use it in production.
+  links:
+    - label: Buy now
+      to: https://ui.nuxt.com/pro/purchase
+      target: _blank
+      icon: i-lucide-shopping-cart
+    - label: License
+      to: https://ui.nuxt.com/getting-started/license
+      trailingIcon: i-lucide-circle-help
+      target: _blank
+      variant: subtle
