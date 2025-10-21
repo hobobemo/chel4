@@ -80,14 +80,13 @@ onMounted(async () => {
 </script>
 
 <template>
-<UApp>
-    <NuxtLoadingIndicator />
+  <ClientOnly>
+    <UApp>
+      <NuxtLoadingIndicator />
+      <NuxtLayout>
+        <NuxtPage />
+      </NuxtLayout>
 
-    <NuxtLayout>
-      <NuxtPage />
-    </NuxtLayout>
-
-    <ClientOnly>
       <LazyUContentSearch
         :files="files"
         shortcut="meta_k"
@@ -95,6 +94,6 @@ onMounted(async () => {
         :links="links"
         :fuse="{ resultLimit: 42 }"
       />
-    </ClientOnly>
-  </UApp>
+    </UApp>
+  </ClientOnly>
 </template>

@@ -1,4 +1,8 @@
 <script setup>
+    useHead({
+        title: 'Authorizing User'
+    })
+    
     const userStore = useUserStore();
     const config = useRuntimeConfig();
     const route = useRoute();
