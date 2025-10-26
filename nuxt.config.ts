@@ -44,6 +44,9 @@ export default defineNuxtConfig({
       ],
       crawlLinks: true,
       autoSubfolderIndex: false
+    },
+    experimental: {
+      openAPI: true
     }
   },
 
